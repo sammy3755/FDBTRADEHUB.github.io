@@ -3638,7 +3638,7 @@ content (after 500px)
 
 ------------------------------ */
 
-@media (max-width: 100%) {
+@media (max-width: 500px) {
     /* line 1163, ../scss/_content.scss */
     .art-section-title {
         -webkit-box-orient: horizontal;
@@ -3653,11 +3653,11 @@ content (after 500px)
     }
     /* line 1174, ../scss/_content.scss */
     .art-grid.art-grid-2-col .art-grid-item {
-        width: 50%;
+        width: 100%;
     }
     /* line 1180, ../scss/_content.scss */
     .art-grid.art-grid-3-col .art-grid-item {
-        width: 50%;
+        width: 100%;
     }
 }
 
