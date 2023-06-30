@@ -3638,7 +3638,7 @@ content (after 500px)
 
 ------------------------------ */
 
-@media (max-width: 25%) {
+@media (max-width: 100%) {
     /* line 1163, ../scss/_content.scss */
     .art-section-title {
         -webkit-box-orient: horizontal;
