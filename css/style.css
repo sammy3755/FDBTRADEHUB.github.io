@@ -1164,7 +1164,7 @@ app marcup (after 230px)
 
 ------------------------------ */
 
-@media (max-width: 230px) {
+@media (max-width: 100) {
     /* line 376, ../scss/_markup.scss */
     .art-app {
         /* ----- menu bar ----- */
@@ -3503,7 +3503,9 @@ content (after 1200px)
 @media (max-width: 1200px) {
     /* line 1030, ../scss/_content.scss */
     .art-banner .art-banner-overlay .art-banner-photo {
-        display: none;
+        display: block;
+        width: 40%;
+
     }
     /* line 1038, ../scss/_content.scss */
     .art-grid.art-grid-2-col .art-grid-item {
@@ -3524,16 +3526,17 @@ content (after 920px)
 @media (max-width: 920px) {
     /* line 1057, ../scss/_content.scss */
     .art-banner .art-banner-overlay {
-        padding: 60px 30px;
+        padding: 20px 20px;
     }
     /* line 1060, ../scss/_content.scss */
     .art-banner .art-banner-overlay .art-banner-title {
-        text-align: center;
+        text-align: left;
     }
     /* line 1063, ../scss/_content.scss */
     .art-banner .art-banner-overlay .art-banner-title h1 {
         color: #fafafc;
-        font-size: 46px;
+        font-size: 30px;
+        margin-left: 0%;
     }
     /* line 1068, ../scss/_content.scss */
     .art-banner .art-banner-overlay .art-banner-title .art-buttons-frame {
@@ -3552,6 +3555,7 @@ content (after 920px)
     .art-banner .art-banner-overlay .art-banner-title .art-buttons-frame a {
         max-width: 200px;
         margin: 0 auto;
+        margin-left: 0%;
     }
     /* line 1078, ../scss/_content.scss */
     .art-banner .art-banner-overlay .art-banner-title .art-buttons-frame a:first-child {
